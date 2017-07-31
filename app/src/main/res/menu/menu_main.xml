@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.old.trafford.shubham.myoverflowmenu.MainActivity">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/backgroud_Red"
+            android:title="@string/red"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            />
+
+        <item android:id="@+id/backgroud_Yellow"
+            android:title="@string/yellow"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+            />
+
+        <item android:id="@+id/backgroud_Black"
+            android:title="@string/black"
+            android:orderInCategory="3"
+            app:showAsAction="never"
+            />
+
+    </group>
+
+</menu>
